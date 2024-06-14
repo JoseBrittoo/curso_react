@@ -1,11 +1,14 @@
 import { useState } from 'react'
 // components
-import FirstComponent from './components/FirstComponents'
-import TemplateExpressions from './components/TemplateExpressions'
-import MyComponent from './components/MyComponent'
+import FirstComponent from './components/FirstComponents';
+import TemplateExpressions from './components/TemplateExpressions';
+import MyComponent from './components/MyComponent';
+import Events from './components/Events';
+import Challenge from './components/Challenge';
 
 // styles /css
 import './App.css'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +19,8 @@ function App() {
       <FirstComponent/>
       <TemplateExpressions/>
       <MyComponent/>
+      <Events/>
+      <Challenge/>
     </>
   )
 }
